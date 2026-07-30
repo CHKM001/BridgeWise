@@ -90,6 +90,9 @@
       "jsx"
     ],
     "rootDir": ".",
+    "testPathIgnorePatterns": [
+      "test/config/"
+    ],
     "testRegex": ".*\\.(test|spec)\\.(ts|tsx|js|jsx)$",
     "transform": {
       "^.+\\.(t|j)sx?$": ["ts-jest", { "tsconfig": { "jsx": "react-jsx" } }]
